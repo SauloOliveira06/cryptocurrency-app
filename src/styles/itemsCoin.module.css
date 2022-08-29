@@ -1,0 +1,41 @@
+.gridItemsCoin {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    border-bottom: 1px solid rgb(142, 142, 142);
+    align-items: center;
+    padding: 10px;
+}
+
+.itemCoin {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.imgCripto {
+    width: 60px;
+}
+
+.textSmall {
+    font-size: 0.75rem;
+}
+
+.redText {
+    color: #c70000;
+}
+
+.greenText {
+    color: #008000;
+}
+
+.priceChange {
+    display: flex;
+    gap: 10px;
+}
+
+.currencyFormat {
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
