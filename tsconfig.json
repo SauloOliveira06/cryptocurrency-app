@@ -7,9 +7,9 @@
       "DOM.Iterable",
       "ESNext"
     ],
-    "baseUrl": "src",
+    "baseUrl": "./src",
     "paths": {
-      "@/*": ["src/*"]
+      "~/*": ["./*"]
     },
     "allowJs": false,
     "skipLibCheck": true,
@@ -26,10 +26,5 @@
   },
   "include": [
     "src"
-  ],
-  "references": [
-    {
-      "path": "./tsconfig.node.json"
-    }
   ],
 }
