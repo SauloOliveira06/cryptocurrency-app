@@ -1,5 +1,5 @@
-import Markets from "../components/Markets/Markets";
-import Trending from "../components/Trending/Trending";
+import Markets from "~/components/Markets/Markets";
+import Trending from "~/components/Trending/Trending";
 
 const CryptoHome = () => {
     return (

@@ -10,7 +10,7 @@ const App = () => {
       <main>
         <Routes>
           <Route path='/' element={<CryptoHome />} />
-          <Route path='/crypto/:id' element={<CryptoDetail />} />
+          <Route path='/coin/:id' element={<CryptoDetail />} />
         </Routes>
       </main>
     </BrowserRouter>

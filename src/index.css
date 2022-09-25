@@ -29,6 +29,10 @@ main {
   padding: 0.2rem calc((100vw - 1000px) / 2);
 }
 
+a {
+  text-decoration: none;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

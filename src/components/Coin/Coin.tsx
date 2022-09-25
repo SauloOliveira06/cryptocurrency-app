@@ -1,11 +1,11 @@
-import { TrendingDown, TrendingUp } from '../../assets/icons/TrendingIcons';
-import itemCoin from '../../styles/itemsCoin.module.css';
+import { Link } from 'react-router-dom';
+import { TrendingDown, TrendingUp } from '~/assets/icons/TrendingIcons';
 import { currencyFormat } from '../utils';
+import itemCoin from '~/styles/itemsCoin.module.css';
 
 const Coin = ({ coin }: any) => {
-    console.log(coin);
     return (
-        <>
+        <Link to={`/coin/${coin.id}`}>
             <div className={itemCoin.gridItemsCoin}>
                 <div className={itemCoin.itemCoin}>
                     <img className={itemCoin.imgCripto} src={coin.image} alt={coin.name} />
@@ -18,7 +18,7 @@ const Coin = ({ coin }: any) => {
                     {coin.price_change_percentage_24h}
                 </span>
             </div>
-        </>
+        </Link>
     )
 }
 
